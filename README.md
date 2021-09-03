@@ -20,7 +20,7 @@ pip install -U -r requirements.txt
 
 #### In order for this to work however you also need a MySQL server
 
-##### Create a python_secrets.py file in the following format
+##### Create a python_secrets.py file inside the demo_website folder in the following format
 
 ```bash
 dbhost = 'localhost'
@@ -34,5 +34,5 @@ dbname = 'demo_db'
 
 
 ```bash
-flask run
+python run.py
 ```
